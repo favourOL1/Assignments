@@ -1,0 +1,44 @@
+*{
+    font-size: 20px;
+}
+body{
+    background-color: blue;
+    margin: 100px;
+    margin-left:275px;
+}
+
+div{
+    color: #ffffff;
+}
+.MARGIN{
+    background-color:aqua;
+    padding: 50px;
+    width: 650px;
+    margin:0px;
+    height: 445px;
+}
+
+.BORDER{
+    background-color: blueviolet;
+    padding: 50px;
+    width: 550px;
+    margin:0px;
+    height: 300px;
+}
+
+.PADDING{
+    background-color: blue;
+    padding: 50px;
+    width: 450px;
+    margin:0px;
+    height: 160px;   
+}
+
+.CONTENT{
+    background-color: yellow;
+    padding: 50px;
+    width: 350px;
+    margin:0px;
+    height: 15px;
+    text-align: center;
+}

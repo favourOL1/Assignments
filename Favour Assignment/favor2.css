@@ -1,0 +1,247 @@
+body{
+    display: flex;  
+    justify-content: center;
+    background-image: url(dstv/dstv-login-bg.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+}
+
+.MAIN{
+    display:inline;
+    position:absolute;
+    background:transparent;
+    backdrop-filter:blur(5px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-left: 420px;
+    margin-right: 420px;
+    margin-top: 80px;
+    height: 700px;
+    width: 440px;
+    border-radius: 5px;
+    margin-bottom:10px;
+} 
+
+img{
+    justify-content: center;
+    margin-left: 118px;
+    margin-right: 118px;
+    margin-top: 25px;
+    image-rendering: auto;
+}
+div{
+   margin: auto;
+   padding: 0%;
+}
+
+.SUB{
+    margin: 5px;
+
+}
+.SUB p{
+    display: inline;
+    font-style: normal;
+    color:#ffffff;
+}
+
+p{
+    font-size: large;
+    font-weight:lighter;
+    font-family: sans-serif;
+}
+
+.sign {
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 600px;
+}
+
+.country input{
+    box-sizing:border-box;
+    border-radius:100px;
+    text-indent: 20px;
+    height: 45px;
+    width:350px;
+    margin:5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom:5px;
+    background:#546B83;
+    outline: none;
+    border:none;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size:large;
+    color: white;
+}
+
+
+.country{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+::placeholder{
+    color: #ffffff;
+    padding: 15px;
+}
+
+.country img{
+    width: 20px;
+    position: absolute;
+    color: white;
+    margin:auto;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+i{
+    position: absolute;
+    color: white;
+    margin-top: -35px;
+    margin-left: 150px;
+    
+}
+.BOX{
+    display: inline;
+    margin-top:20px;
+}
+.BOX input{
+    margin-right:300px;
+    margin-top:-50px;
+    height: 20px;
+    width: 20px;
+}
+.BOX p{
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+    margin-top: -20px;
+    margin-right: 180px;
+}
+
+.SIGN:hover {
+    transition-duration:  1s;
+    background-color: #546B83;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    
+}
+
+.SIGN{
+    background-color:#0671C0;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: -20px;
+}
+.SIGN p{
+    font-family: sans-serif;
+    color:#91AAC0;
+    padding: 10px;
+}
+.SIGN i {
+    position: absolute;
+    height: 18px;
+    width: 10px;
+    color: #91AAC0;
+    margin-top: -48px;
+    margin-left: 80px;
+}
+.OR{
+    background-color:white;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    margin-top:0px;
+    padding: 5px;
+    padding-top: -50px;
+    margin-bottom: -40px;
+    border-radius: 100%;
+}
+.OR p{
+    height:0px;
+    width: 0px;
+    text-align: center;
+    font-size: small;
+    font-style: normal;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 5px;
+    margin-top: 8px;
+    color: blue;
+}
+.OR .or{
+    background-color: white;
+    height: 1px;
+    width: 300px;
+    margin: auto;
+    margin-top: -5px;
+    margin-left: -130px;
+}
+.ID {
+    background-color: #011c29;
+    margin:auto;
+    height: 80px;
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.Use {
+    color:white;
+    height: 2px;
+    width:  80px;
+    margin: 100px;
+    margin-top:10px;
+    margin-bottom:30px;
+    font-size: medium;
+
+}
+.ID .MultiChoice{
+    color: white;
+    height: 2px;
+    width: 120px;
+    margin-left: 170px;
+    margin-top: -32px; 
+    font-family: sans-serif;
+    font-size: 100%;
+    font-stretch: narrower;
+}
+
+.ID .SIGNUP {
+    background-color:white;
+    margin: auto;
+    height: 40px;
+    width: 200px;
+    border-radius: 100px;
+    color: #34BAF6;
+    margin-top: 30px;
+}
+
+.ID .SIGNUP p {
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: bold;
+    padding-top: 15px;
+    margin: 0px;
+}
+
+.note {
+    margin: auto;
+    padding: 10px;
+}
+
+.note p{
+    color: white;
+    font-size:15PX;
+    margin:auto;
+}
+
+.note .Terms {
+    color: #0671C0;
+}
+
+
